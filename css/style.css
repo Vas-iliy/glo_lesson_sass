@@ -1,0 +1,18 @@
+.header {
+    width: 80%;
+    margin: auto;
+}
+.header__title {
+    color: #FB8C00;
+}
+.header__text {
+    color: #EB8C00;
+    margin-bottom: 30px;
+}
+.header__button {
+    background-color: #FB8C00;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+
+}

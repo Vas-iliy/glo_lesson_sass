@@ -1,0 +1,31 @@
+.header {
+  background-color: #fefefe;
+}
+.header__title {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+.header h1 {
+  font-size: 20px;
+}
+.header__button {
+  border-style: dashed;
+  border-width: 24px;
+}
+
+.header {
+  margin-top: 17.5px;
+}
+
+.headertitle {
+  color: #FB8C00;
+}
+.headertext {
+  color: #c87000;
+}
+.headerbutton {
+  background-color: #FB8C00;
+  -webkit-box-shadow: 1px 5px 20px #ffa32f;
+          box-shadow: 1px 5px 20px #ffa32f;
+}

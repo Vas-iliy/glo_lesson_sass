@@ -1,0 +1,28 @@
+.header
+  background-color: #fefefe
+  &__title
+    font:
+      size: 20px
+      weight: bold
+      style: italic
+  h1
+    font-size: 20px
+  &__button
+    border:
+      style: dashed
+      width: 24px
+
+$size: 10px //переменная
+
+.header
+  margin-top: 2*$size - 5px/2
+
+$color: #FB8C00
+.header
+  &title
+    color: $color
+  &text
+    color: darken($color, 10)
+  &button
+    background-color: $color
+    box-shadow: 1px 5px 20px lighten($color, 10)
